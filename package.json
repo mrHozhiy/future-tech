@@ -1,0 +1,16 @@
+{
+  "name": "future-tech",
+  "version": "1.0.0",
+  "description": "Future Tech project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrHozhiy/future-tech.git"
+  },
+  "license": "ISC",
+  "author": "mrHozhyi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
