@@ -106,23 +106,23 @@
     }
 
     &-item {
-      --paddinX: #{rem(80)};
+      --paddingX: #{rem(80)};
 
       padding-block: rem(50);
 
       @include laptop {
-        --paddinX: #{rem(50)};
+        --paddingX: #{rem(50)};
 
         padding-block: rem(40);
       }
 
       @include tablet-above {
         &:not(:first-child) {
-          padding-left: var(--paddinX);
+          padding-left: var(--paddingX);
         }
 
         &:not(:last-child) {
-          padding-right: var(--paddinX);
+          padding-right: var(--paddingX);
           border-right: var(--border);
         }
       }

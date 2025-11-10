@@ -1042,21 +1042,21 @@ button[aria-label]::before {
   }
 }
 .hero__advantages-item {
-  --paddinX: 5rem;
+  --paddingX: 5rem;
   padding-block: 3.125rem;
 }
 @media (width <= 90.06125rem) {
   .hero__advantages-item {
-    --paddinX: 3.125rem;
+    --paddingX: 3.125rem;
     padding-block: 2.5rem;
   }
 }
 @media (width > 63.99875rem) {
   .hero__advantages-item:not(:first-child) {
-    padding-left: var(--paddinX);
+    padding-left: var(--paddingX);
   }
   .hero__advantages-item:not(:last-child) {
-    padding-right: var(--paddinX);
+    padding-right: var(--paddingX);
     border-right: var(--border);
   }
 }
@@ -1070,6 +1070,7 @@ button[aria-label]::before {
 }
 
 .header,
+main > *:not(:last-child),
 .footer {
   display: none !important;
 }
