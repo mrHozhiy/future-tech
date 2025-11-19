@@ -1463,13 +1463,13 @@ button[aria-label]::before {
   }
 }
 .download-info__team {
-  --personImageSize: 3.125rem
+  --personImageSize: 3.125rem;
   background-color: var(--color-dark);
   border-radius: 0.75rem;
 }
 @media (width <= 90.06125rem) {
   .download-info__team {
-    --personImageSize: 2.5rem ;
+    --personImageSize: 2.5rem;
   }
 }
 
