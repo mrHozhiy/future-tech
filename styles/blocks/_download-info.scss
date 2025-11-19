@@ -11,14 +11,13 @@
   }
 
   &__team {
-    --personImageSize: #{rem(50)}
+    --personImageSize: #{rem(50)};
 
     background-color: var(--color-dark);
     border-radius: rem(12);
 
     @include laptop {
-    --personImageSize: #{rem(40)}
-
+      --personImageSize: #{rem(40)};
     }
   }
 }
