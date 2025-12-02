@@ -1,0 +1,33 @@
+.summary--2-cols .summary__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.875rem 1.25rem;
+}
+@media (width <= 90.06125rem) {
+  .summary--2-cols .summary__list {
+    row-gap: 1.25rem;
+  }
+}
+.summary--2-cols .summary__item--wide {
+  grid-column: -1/1;
+  row-gap: clamp(0.625rem, 0.5294117647rem + 0.3921568627vw, 1rem);
+  margin-top: 1.25rem;
+}
+.summary__list {
+  display: flex;
+  column-gap: clamp(1.25rem, 0.7720588235rem + 1.9607843137vw, 3.125rem);
+}
+.summary__item {
+  display: grid;
+  row-gap: 0.25rem;
+}
+@media (width <= 90.06125rem) {
+  .summary__item {
+    row-gap: 0.125rem;
+  }
+}
+.summary__value {
+  color: var(--color-light);
+}
+
+/*# sourceMappingURL=summary.css.map */
